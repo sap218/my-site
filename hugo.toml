@@ -1,0 +1,99 @@
+baseURL = 'https://sap218.uk/'
+title = 'sap218'
+
+languageCode = 'en'
+DefaultContentLanguage = 'en'
+enableEmoji = true
+
+theme = 'devise'
+
+author = 'Dr Samantha Pendleton'
+copyright = 'sap218 © 2025'
+
+ignoreLogs = ['warning-goldmark-raw-html']
+ignoreErrors = ['additional-script-loading-error', 'error-remote-getjson']
+
+
+relativeURLs = true
+#googleAnalytics = ""
+
+# Main menu items
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "home"
+    url = "/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = -100
+	
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts/"
+    weight = -90
+	
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    title = "projects"
+    url = "/projects/"
+    weight = -80
+	
+  [[menu.main]]
+    identifier = "random"
+    name = "random"
+    title = "random"
+    url = "/random/"
+    weight = -70
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    title = "categories"
+    url = "/categories/"
+    weight = -60
+
+# Configuration Features
+[params]
+  description = "sap218 hugo site"
+  
+  #home_image = "/images/graduation.jpg"
+  header_title = "Dr Samantha Pendleton"
+  
+  header_subtitle = "Engineer of data, ontologies, and clusters. Thrower of pots, controllers, and eggs."
+  
+  recent_posts = 100000000
+  mainSections = ["posts","projects","random"]   # Main sections to include in recent posts
+  
+  [params.style]                             # CSS style overrides
+    backgroundColor = "#fbf3eb"
+    fontColor = "#212529"
+	
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+    href = "https://github.com/sap218"
+
+  [[params.social]]
+    fa_icon = "fab fa-linkedin fa-1x"
+    href = "https://www.linkedin.com/in/sap218/"
+
+  [[params.social]]
+    fa_icon = "fa fa-envelope fa-1x"
+    href = "mailto:hello@sap218.uk"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 3
+    endLevel   = 5
+    ordered    = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

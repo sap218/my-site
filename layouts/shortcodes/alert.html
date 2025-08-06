@@ -1,0 +1,17 @@
+{{/* layouts/shortcodes/alert.html */}}
+
+{{ $type := .Get "type" | default "info" }}
+
+{{ $colors := dict
+  "info"    (dict "bg" "#E6F0FA" "text" "#1E70BF" "icon" "ℹ️" "label" "Info")
+  "success" (dict "bg" "#E6F4EA" "text" "#2E7D32" "icon" "✅" "label" "Success")
+  "warning" (dict "bg" "#FFF8E1" "text" "#C77700" "icon" "⚠️" "label" "Warning")
+  "error"   (dict "bg" "#FDECEA" "text" "#B00020" "icon" "❌" "label" "Error")
+}}
+
+{{ $style := index $colors $type }}
+
+<div style="background-color:{{ $style.bg }}; color:{{ $style.text }}; padding:1em; border-radius:5px; margin:1em 0;">
+  <strong>{{ $style.icon }} {{ $style.label }}:</strong><br/>
+  {{ .Inner }}
+</div>

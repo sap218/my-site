@@ -68,7 +68,7 @@ relativeURLs = true
   #home_image = "/images/graduation.jpg"
   header_title = "Dr Samantha Pendleton"
   
-  header_subtitle = "Engineer of data, ontologies, and clusters. Thrower of pots, controllers, and eggs."
+  header_subtitle = "<b>Clinical Informatician</b><br>Engineer of data, ontologies, and clusters. Thrower of pots, controllers, and eggs."
   
   recent_posts = 100000000
   mainSections = ["posts","projects","random"]   # Main sections to include in recent posts
@@ -80,6 +80,10 @@ relativeURLs = true
   [[params.social]]
     fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
     href = "https://github.com/sap218"
+
+  [[params.social]]
+    fa_icon = "fab fa-bluesky fa-1x"
+    href = "https://bsky.app/profile/sap218.bsky.social"
 
   [[params.social]]
     fa_icon = "fab fa-linkedin fa-1x"

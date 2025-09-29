@@ -23,4 +23,4 @@ date = "2025-07-25"
 
 + Check out my [photography](https://www.flickr.com/photos/sap218/albums/ "my photographs with my fancy camera") or my [digital artwork]({{< ref "digitalart" >}}).
 
-+ Contact me at **`< hello [at] sap218.uk >`**
++ Contact **`< hello [at] sap218.uk >`**

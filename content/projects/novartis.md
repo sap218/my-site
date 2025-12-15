@@ -1,5 +1,5 @@
 +++
-title = "Oxford-Novartis Collaboration - Multiple Sclerosis"
+title = "Member of the Oxford-Novartis collaboration"
 date = "2022-05-01"
 categories = ['job']
 +++

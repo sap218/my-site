@@ -1,7 +1,7 @@
 +++
 title = "My First Holiday"
 date = "2025-11-01"
-categories = ['my perspective','fun']
+categories = ['my perspective']
 toc = false
 draft = true
 +++

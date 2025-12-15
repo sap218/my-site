@@ -52,7 +52,7 @@ So, I wondered what other data could I explore? Why not look at Google searches?
 
 #### Google Trends
 
-See code here: https://github.com/sap218/covid-dreams
+**See code in the GitHub repository: [covid-dreams](https://github.com/sap218/covid-dreams).**
 
 To know if Google searches are interesting, we need a dataset to compare against. I started with COVID case counts.
 From OWID's (Our World in Data) repositories, I downloaded the open [COVID-19 data](https://github.com/owid/covid-19-data/tree/master/public/data/ "our world in data repo for covid 19 data").

@@ -1,7 +1,7 @@
 +++
 title = "What's the Catch with ChatGPT?"
 date = "2025-01-26"
-categories = ['python','machine learning','nlp','semantic similarity','sentiment','trends']
+categories = ['python','machine learning','ai','nlp','semantic similarity','sentiment','trends']
 toc = true
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "COVID dreams"
 date = "2025-12-15"
-categories = ['python','r','trends']
+categories = ['python','r','trends','sentiment']
 toc = true
 +++
 

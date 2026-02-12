@@ -46,20 +46,27 @@ relativeURLs = true
     title = "projects"
     url = "/projects/"
     weight = -80
+
+  [[menu.main]]
+    identifier = "books"
+    name = "books"
+    title = "books"
+    url = "/books/"
+    weight = -70
 	
   [[menu.main]]
     identifier = "random"
     name = "random"
     title = "random"
     url = "/random/"
-    weight = -70
+    weight = -60
 
   [[menu.main]]
     identifier = "categories"
     name = "categories"
     title = "categories"
     url = "/categories/"
-    weight = -60
+    weight = -50
 
 # Configuration Features
 [params]
@@ -71,7 +78,7 @@ relativeURLs = true
   header_subtitle = "<b>Clinical Informatician</b><br>Engineer of data, ontologies, and clusters. Thrower of pots, controllers, and eggs."
   
   recent_posts = 100000000
-  mainSections = ["posts","projects","random"]   # Main sections to include in recent posts
+  mainSections = ["posts","projects","books","random"]   # Main sections to include in recent posts
   
   [params.style]                             # CSS style overrides
     backgroundColor = "#fbf3eb"

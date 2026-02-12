@@ -3,7 +3,7 @@ title = "about"
 date = "2025-07-25"
 +++
 
-{{< figure src="/banner.drawio.png" alt="collection of my favourite photographs with me in the middle" width="200%" class="figure-plain" >}}
+{{< figure src="/banner-new.drawio.png" alt="collection of my favourite photographs with me in the middle" width="200%" class="figure-plain" >}}
 
 <br >
 

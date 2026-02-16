@@ -1,6 +1,6 @@
 +++
 title = "Member of the Quality of Life ontology (QoLo) development"
-date = "2025-07-28"
+date = "2026-01-01"
 categories = ['ontology','nlp','patient voice','inflammation']
 draft = true
 +++

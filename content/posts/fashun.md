@@ -1,7 +1,7 @@
 +++
 title = "Fashun"
 date = "2022-10-21"
-categories = ['r','shiny','sentiment','trends']
+categories = ['r','dashboards','sentiment','trends']
 toc = true
 +++
 

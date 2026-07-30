@@ -5,7 +5,7 @@ categories = ['r','dashboards','sentiment','trends']
 toc = true
 +++
 
-## Fashun: an `R` Shiny App of fashion trends
+## Fashun: an `R Shiny` App of fashion trends
 
 I want to start by saying fashion (or *fashun*) is whatever **you** decide - whether that is double denim or choosing two completely different patterns.
 I enjoy fashion, and for me, this is an outlet for expressing oneself.

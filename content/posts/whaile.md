@@ -7,7 +7,7 @@ toc = true
 
 ## Whaile: a `Python Streamlit` App of UK Shore Observations
 
-[**>> Whaile App**](url "Python Streamlit application called Whaile")
+[**>> Whaile App**](https://whaile.streamlit.app/ "Python Streamlit application called Whaile")
 
 ### Introduction
 
@@ -203,7 +203,7 @@ The code is available on [GitHub](https://github.com/sap218/whaile "github link"
 
 ### The App
 
-[**>> Whaile App**](url "Python Streamlit application called Whaile")
+[**>> Whaile App**](https://whaile.streamlit.app/ "Python Streamlit application called Whaile")
 
 {{< alert type="success" >}}
 Please do have a little explore - let me know if you find anything interesting!

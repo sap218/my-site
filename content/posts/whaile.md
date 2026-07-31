@@ -54,7 +54,7 @@ Finally, I decided to do some Clustering with DBScan (Density-Based Spatial Clus
 There are many clustering algorithms out there, and usually in research we can use multiple and analyse individual performances (or choose consensus clustering).
 DBScan looks at shapes in data: how close observations are to another and chooses the number of clusters for us - it's great for detecting outliers, detecting natural groups, and detecting unusual shapes, e.g. shorelines.
 
-For the data curation API, cleaning, and clustering, see the [**Notebooks**](https://github.com/sap218/whaile/tree/main/data "link to data notebooks") to work through.
+For the data curation API, cleaning, and clustering, see the [**Notebooks**](https://github.com/sap218/whaile "link to data notebooks") to work through.
 Here you can see the API endpoints I requested, the cleaning, and clustering.
 
 ### The App

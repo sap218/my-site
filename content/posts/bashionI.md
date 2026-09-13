@@ -69,7 +69,7 @@ For those who use PowerBI for dashboards and reports, this is probably great - b
 
 | R | PowerBI |
 | --- | --- |
-| {{< figure src="/images/posts/bashion/costs_line_RG.png" width="100%" class="figure-plain" alt="table of" >}} | {{< figure src="/images/posts/bashion/costs_line_PB.png" width="92%" class="figure-plain" alt="table of" >}} |
+| {{< figure src="/images/posts/bashion/costs_line_RG.png" width="100%" class="figure-plain" alt="line plot of costs and revenue via r" >}} | {{< figure src="/images/posts/bashion/costs_line_PB.png" width="92%" class="figure-plain" alt="line plot of costs and revenue via powerbi" >}} |
 
 As we can see, both are very similar. In `R` I coded, in PowerBI I drag and dropped.
 `R` lets me easily add another line to the plot, it can be the same data point but one dashed and the other curved.
@@ -82,7 +82,7 @@ Another plot I tried to recreate is a bar plot distribution of ratings across ag
 
 | R | PowerBI |
 | --- | --- |
-| {{< figure src="/images/posts/bashion/stars_bar_RG.png" width="100%" class="figure-plain" alt="table of" >}} | {{< figure src="/images/posts/bashion/stars_bar_PB.png" width="92%" class="figure-plain" alt="table of" >}} |
+| {{< figure src="/images/posts/bashion/stars_bar_RG.png" width="100%" class="figure-plain" alt="bar plot of ratings distribution across age groups in r" >}} | {{< figure src="/images/posts/bashion/stars_bar_PB.png" width="92%" class="figure-plain" alt="bar plot of ratings distribution across age groups in powerbi" >}} |
 
 One thing I particularly liked about PowerBI is that I could click a button and the y-axis flipped, which is what I had to do to make these plots similar.
 But again some features aren't as easy as a button click...

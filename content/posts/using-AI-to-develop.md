@@ -111,3 +111,11 @@ Is it bad to call it an intern? (when they rise up and take over, I hope they do
 Anyway, I have made Jabberwocky available online, go have a try? 
 
 [**>> See the Web App here**](https://jabberwocky.streamlit.app/ "link to web app")
+
+{{< alert type="info" >}}
+A small update - when I deployed live, there was an issue with the test files as they are accessed locally via submodules (an inner repository but they are separated and connect via links).
+As I wondered how to fix this - considering if Streamlit can access test files via submodules - I decided to ask the LLM to give it a go. 
+At first it spent a good chunk of credits doing something that I couldn't figure out and not getting anywhere...
+So I edited my request and said it was about the test files - and then it informed me about Streamlit not supporting submodules so suggested inline text.
+So it got there in the end - only because I clarified precisely about the error.
+{{< /alert >}}
